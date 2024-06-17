@@ -1,7 +1,5 @@
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
@@ -40,3 +38,16 @@ internal record WeatherForecast(DateOnly Date, int TemperatureC, string? Summary
 {
     public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
 }
+
+//  -----------------------------------------------Creating Backend---------------------------------------------------------
+// |            CleanArchitecture => Done                                                                                   |
+// |                  Minimal APIs                                                                                          |
+// |                Identity Server                                                                                         |
+// |                   Unit Tests                                                                                           |
+// |            TDD - Test Driven Design                                                                                    |
+// |-----------------------------------------------Creating Frontend--------------------------------------------------------|
+// |                     HTML                                                                                               |
+// |                     CSS                                                                                                |
+// |                  JavaScript                                                                                            |
+// |                   Angular                                                                                              |
+//  ------------------------------------------------------------------------------------------------------------------------
