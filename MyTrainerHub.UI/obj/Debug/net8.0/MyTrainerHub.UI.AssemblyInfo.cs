@@ -11,10 +11,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("a97798c0-04f1-4045-93b4-39946c7314dd")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("MyTrainerHub.UI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9020197876e65393b6098ed9ea64c6f389aa2eb9")]
 [assembly: System.Reflection.AssemblyProductAttribute("MyTrainerHub.UI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MyTrainerHub.UI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,53 +1,44 @@
+using Microsoft.AspNetCore.Identity;
+using MyTrainerHub.Core.Domain.Entities;
+using MyTrainerHub.UI.ServicesInjectionExtension;
+
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+builder.Services.AddAuthentication()
+    .AddCookie(IdentityConstants.ApplicationScheme)
+    .AddBearerToken(IdentityConstants.BearerScheme);
+builder.Services.AddAuthorization();
+builder.Services.AddCORSService();
+
+builder.Services.AddIdentityService();
+
+builder.Services.AddDBContextService(builder.Configuration);
+
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
 }
 
-var summaries = new[]
-{
-    "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
-};
-
-app.MapGet("/weatherforecast", () =>
-{
-    var forecast = Enumerable.Range(1, 5).Select(index =>
-        new WeatherForecast
-        (
-            DateOnly.FromDateTime(DateTime.Now.AddDays(index)),
-            Random.Shared.Next(-20, 55),
-            summaries[Random.Shared.Next(summaries.Length)]
-        ))
-        .ToArray();
-    return forecast;
-})
-.WithName("GetWeatherForecast")
-.WithOpenApi();
+app.MapIdentityApi<ApplicationUser>();
 
 app.Run();
 
-internal record WeatherForecast(DateOnly Date, int TemperatureC, string? Summary)
-{
-    public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
-}
 
-//  -----------------------------------------------Creating Backend---------------------------------------------------------
-// |            CleanArchitecture => Done                                                                                   |
-// |                  Minimal APIs                                                                                          |
-// |                Identity Server                                                                                         |
-// |                   Unit Tests                                                                                           |
-// |            TDD - Test Driven Design                                                                                    |
-// |-----------------------------------------------Creating Frontend--------------------------------------------------------|
-// |                     HTML                                                                                               |
-// |                     CSS                                                                                                |
-// |                  JavaScript                                                                                            |
-// |                   Angular                                                                                              |
-//  ------------------------------------------------------------------------------------------------------------------------
+//  -----------------------------------Creating Backend-----------------------------------
+// |             CleanArchitecture            =>                   Done                   |
+// |                Minimal APIs                                                          |
+// |              Identity Server                                                         |
+// |                 Unit Tests                                                           |
+// |          TDD - Test Driven Design                                                    |
+//  -----------------------------------Creating Frontend----------------------------------
+// |                   HTML                                                               |
+// |                   CSS                                                                |
+// |                JavaScript                                                            |
+// |                 Angular                                                              |
+//  --------------------------------------------------------------------------------------

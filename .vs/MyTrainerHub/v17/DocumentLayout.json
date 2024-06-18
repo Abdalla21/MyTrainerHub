@@ -1,7 +1,39 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "G:\\Projects\\MyTrainerHub\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5C4A6DC7-FDFD-479D-9AD8-655A4C255B72}|MyTrainerHub.UI\\MyTrainerHub.UI.csproj|g:\\projects\\mytrainerhub\\mytrainerhub.ui\\servicesinjectionextension\\dbservicesinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C4A6DC7-FDFD-479D-9AD8-655A4C255B72}|MyTrainerHub.UI\\MyTrainerHub.UI.csproj|solutionrelative:mytrainerhub.ui\\servicesinjectionextension\\dbservicesinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C4A6DC7-FDFD-479D-9AD8-655A4C255B72}|MyTrainerHub.UI\\MyTrainerHub.UI.csproj|g:\\projects\\mytrainerhub\\mytrainerhub.ui\\servicesinjectionextension\\securityservicesinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C4A6DC7-FDFD-479D-9AD8-655A4C255B72}|MyTrainerHub.UI\\MyTrainerHub.UI.csproj|solutionrelative:mytrainerhub.ui\\servicesinjectionextension\\securityservicesinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C4A6DC7-FDFD-479D-9AD8-655A4C255B72}|MyTrainerHub.UI\\MyTrainerHub.UI.csproj|g:\\projects\\mytrainerhub\\mytrainerhub.ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C4A6DC7-FDFD-479D-9AD8-655A4C255B72}|MyTrainerHub.UI\\MyTrainerHub.UI.csproj|solutionrelative:mytrainerhub.ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B317261-0996-4F85-A7A5-92DA145E00CB}|MyTrainerHub.Infrastructure\\MyTrainerHub.Infrastructure.csproj|g:\\projects\\mytrainerhub\\mytrainerhub.infrastructure\\repository\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B317261-0996-4F85-A7A5-92DA145E00CB}|MyTrainerHub.Infrastructure\\MyTrainerHub.Infrastructure.csproj|solutionrelative:mytrainerhub.infrastructure\\repository\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Abdalla\\AppData\\Roaming\\Microsoft\\UserSecrets\\a97798c0-04f1-4045-93b4-39946c7314dd\\secrets.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B317261-0996-4F85-A7A5-92DA145E00CB}|MyTrainerHub.Infrastructure\\MyTrainerHub.Infrastructure.csproj|g:\\projects\\mytrainerhub\\mytrainerhub.infrastructure\\migrations\\20240618191023_firstinit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B317261-0996-4F85-A7A5-92DA145E00CB}|MyTrainerHub.Infrastructure\\MyTrainerHub.Infrastructure.csproj|solutionrelative:mytrainerhub.infrastructure\\migrations\\20240618191023_firstinit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1763C0B1-0A8A-4D2E-8239-19C4F9B1C9C9}|MyTrainerHub.Core\\MyTrainerHub.Core.csproj|g:\\projects\\mytrainerhub\\mytrainerhub.core\\domain\\entities\\applicationrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1763C0B1-0A8A-4D2E-8239-19C4F9B1C9C9}|MyTrainerHub.Core\\MyTrainerHub.Core.csproj|solutionrelative:mytrainerhub.core\\domain\\entities\\applicationrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B317261-0996-4F85-A7A5-92DA145E00CB}|MyTrainerHub.Infrastructure\\MyTrainerHub.Infrastructure.csproj|g:\\projects\\mytrainerhub\\mytrainerhub.infrastructure\\unitofwork\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B317261-0996-4F85-A7A5-92DA145E00CB}|MyTrainerHub.Infrastructure\\MyTrainerHub.Infrastructure.csproj|solutionrelative:mytrainerhub.infrastructure\\unitofwork\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 1,
@@ -9,7 +41,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 296,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -18,6 +50,112 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "20240618191023_FirstInit.cs",
+              "DocumentMoniker": "G:\\Projects\\MyTrainerHub\\MyTrainerHub.Infrastructure\\Migrations\\20240618191023_FirstInit.cs",
+              "RelativeDocumentMoniker": "MyTrainerHub.Infrastructure\\Migrations\\20240618191023_FirstInit.cs",
+              "ToolTip": "G:\\Projects\\MyTrainerHub\\MyTrainerHub.Infrastructure\\Migrations\\20240618191023_FirstInit.cs",
+              "RelativeToolTip": "MyTrainerHub.Infrastructure\\Migrations\\20240618191023_FirstInit.cs",
+              "ViewState": "AQIAAEMAAAAAAAAAAAAgwA4AAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T19:10:24.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ApplicationRole.cs",
+              "DocumentMoniker": "G:\\Projects\\MyTrainerHub\\MyTrainerHub.Core\\Domain\\Entities\\ApplicationRole.cs",
+              "RelativeDocumentMoniker": "MyTrainerHub.Core\\Domain\\Entities\\ApplicationRole.cs",
+              "ToolTip": "G:\\Projects\\MyTrainerHub\\MyTrainerHub.Core\\Domain\\Entities\\ApplicationRole.cs",
+              "RelativeToolTip": "MyTrainerHub.Core\\Domain\\Entities\\ApplicationRole.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T19:08:03.504Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "G:\\Projects\\MyTrainerHub\\MyTrainerHub.Infrastructure\\UnitOfWork\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "MyTrainerHub.Infrastructure\\UnitOfWork\\UnitOfWork.cs",
+              "ToolTip": "G:\\Projects\\MyTrainerHub\\MyTrainerHub.Infrastructure\\UnitOfWork\\UnitOfWork.cs",
+              "RelativeToolTip": "MyTrainerHub.Infrastructure\\UnitOfWork\\UnitOfWork.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAhwAoAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T19:04:45.972Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "G:\\Projects\\MyTrainerHub\\MyTrainerHub.Infrastructure\\Repository\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "MyTrainerHub.Infrastructure\\Repository\\GenericRepository.cs",
+              "ToolTip": "G:\\Projects\\MyTrainerHub\\MyTrainerHub.Infrastructure\\Repository\\GenericRepository.cs",
+              "RelativeToolTip": "MyTrainerHub.Infrastructure\\Repository\\GenericRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA0AAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T19:04:22.731Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "secrets.json",
+              "DocumentMoniker": "C:\\Users\\Abdalla\\AppData\\Roaming\\Microsoft\\UserSecrets\\a97798c0-04f1-4045-93b4-39946c7314dd\\secrets.json",
+              "ToolTip": "C:\\Users\\Abdalla\\AppData\\Roaming\\Microsoft\\UserSecrets\\a97798c0-04f1-4045-93b4-39946c7314dd\\secrets.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-18T18:46:15.437Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SecurityServicesInjection.cs",
+              "DocumentMoniker": "G:\\Projects\\MyTrainerHub\\MyTrainerHub.UI\\ServicesInjectionExtension\\SecurityServicesInjection.cs",
+              "RelativeDocumentMoniker": "MyTrainerHub.UI\\ServicesInjectionExtension\\SecurityServicesInjection.cs",
+              "ToolTip": "G:\\Projects\\MyTrainerHub\\MyTrainerHub.UI\\ServicesInjectionExtension\\SecurityServicesInjection.cs",
+              "RelativeToolTip": "MyTrainerHub.UI\\ServicesInjectionExtension\\SecurityServicesInjection.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T18:04:25.281Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "G:\\Projects\\MyTrainerHub\\MyTrainerHub.UI\\Program.cs",
+              "RelativeDocumentMoniker": "MyTrainerHub.UI\\Program.cs",
+              "ToolTip": "G:\\Projects\\MyTrainerHub\\MyTrainerHub.UI\\Program.cs",
+              "RelativeToolTip": "MyTrainerHub.UI\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T18:02:49.782Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DBServicesInjection.cs",
+              "DocumentMoniker": "G:\\Projects\\MyTrainerHub\\MyTrainerHub.UI\\ServicesInjectionExtension\\DBServicesInjection.cs",
+              "RelativeDocumentMoniker": "MyTrainerHub.UI\\ServicesInjectionExtension\\DBServicesInjection.cs",
+              "ToolTip": "G:\\Projects\\MyTrainerHub\\MyTrainerHub.UI\\ServicesInjectionExtension\\DBServicesInjection.cs",
+              "RelativeToolTip": "MyTrainerHub.UI\\ServicesInjectionExtension\\DBServicesInjection.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T18:02:19.822Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{fbcae063-e2c0-4ab1-a516-996ea3dafb72}"
             }
           ]
         },
