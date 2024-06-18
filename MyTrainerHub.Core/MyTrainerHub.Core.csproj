@@ -7,11 +7,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Domain\Entities\" />
-    <Folder Include="Domain\Repository\" />
     <Folder Include="DTOs\" />
-    <Folder Include="Helpers\" />
     <Folder Include="ServiceContracts\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="8.0.6" />
   </ItemGroup>
 
 </Project>
