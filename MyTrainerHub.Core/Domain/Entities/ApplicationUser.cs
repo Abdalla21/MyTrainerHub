@@ -2,7 +2,7 @@
 
 namespace MyTrainerHub.Core.Domain.Entities
 {
-    public class Trainer : IdentityUser<Guid>
+    public class ApplicationUser : IdentityUser<Guid>
     {
     }
 }

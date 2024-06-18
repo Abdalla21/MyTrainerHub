@@ -1,0 +1,13 @@
+G:\Projects\MyTrainerHub\MyTrainerHub.Core\bin\Debug\net8.0\MyTrainerHub.Core.deps.json
+G:\Projects\MyTrainerHub\MyTrainerHub.Core\bin\Debug\net8.0\MyTrainerHub.Core.dll
+G:\Projects\MyTrainerHub\MyTrainerHub.Core\bin\Debug\net8.0\MyTrainerHub.Core.pdb
+G:\Projects\MyTrainerHub\MyTrainerHub.Core\obj\Debug\net8.0\MyTrainerHub.Core.csproj.AssemblyReference.cache
+G:\Projects\MyTrainerHub\MyTrainerHub.Core\obj\Debug\net8.0\MyTrainerHub.Core.GeneratedMSBuildEditorConfig.editorconfig
+G:\Projects\MyTrainerHub\MyTrainerHub.Core\obj\Debug\net8.0\MyTrainerHub.Core.AssemblyInfoInputs.cache
+G:\Projects\MyTrainerHub\MyTrainerHub.Core\obj\Debug\net8.0\MyTrainerHub.Core.AssemblyInfo.cs
+G:\Projects\MyTrainerHub\MyTrainerHub.Core\obj\Debug\net8.0\MyTrainerHub.Core.csproj.CoreCompileInputs.cache
+G:\Projects\MyTrainerHub\MyTrainerHub.Core\obj\Debug\net8.0\MyTrainerHub.Core.sourcelink.json
+G:\Projects\MyTrainerHub\MyTrainerHub.Core\obj\Debug\net8.0\MyTrainerHub.Core.dll
+G:\Projects\MyTrainerHub\MyTrainerHub.Core\obj\Debug\net8.0\refint\MyTrainerHub.Core.dll
+G:\Projects\MyTrainerHub\MyTrainerHub.Core\obj\Debug\net8.0\MyTrainerHub.Core.pdb
+G:\Projects\MyTrainerHub\MyTrainerHub.Core\obj\Debug\net8.0\ref\MyTrainerHub.Core.dll
