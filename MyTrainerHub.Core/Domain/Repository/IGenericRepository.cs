@@ -1,12 +1,12 @@
 ﻿using System.Linq.Expressions;
 
-namespace MyTrainerHub.Core.Domain.IGenericRepository
+namespace MyTrainerHub.Core.Domain.Repository
 {
     public interface IGenericRepository<T> where T : class
     {
         T? GetById(Guid id);
 
-        IEnumerable<T> GetAllWhere(Expression<Func<T, bool>> Match);
+        IEnumerable<T> GetAllWhere(Expression<Func<T, bool>> match);
 
         IEnumerable<T> GetAll();
 

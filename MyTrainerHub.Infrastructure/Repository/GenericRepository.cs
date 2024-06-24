@@ -1,21 +1,15 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using MyTrainerHub.Core.Domain.IGenericRepository;
+using MyTrainerHub.Core.Domain.Repository;
 using MyTrainerHub.Infrastructure.DatabaseContext;
 using System.Linq.Expressions;
 
 namespace MyTrainerHub.Infrastructure.Repository
 {
-    public class GenericRepository<T> : IGenericRepository<T> where T : class
+    public class GenericRepository<T>(ApplicationDBContext context) : IGenericRepository<T>
+        where T : class
     {
 
-        private readonly DbSet<T> _dbSet;
-        private readonly ApplicationDBContext _dbContext;
-
-        public GenericRepository(ApplicationDBContext context)
-        {
-            _dbContext = context;
-            _dbSet = _dbContext.Set<T>();
-        }
+        private readonly DbSet<T> _dbSet = context.Set<T>();
 
         public void Add(T entity) => _dbSet.Add(entity);
 
@@ -26,7 +20,7 @@ namespace MyTrainerHub.Infrastructure.Repository
 
         public IEnumerable<T> GetAll() => [.. _dbSet];
 
-        public IEnumerable<T> GetAllWhere(Expression<Func<T, bool>> Match) => [.. _dbSet.Where(Match)];
+        public IEnumerable<T> GetAllWhere(Expression<Func<T, bool>> match) => [.. _dbSet.Where(match)];
 
         public T? GetById(Guid id) => _dbSet.Find(id);
 

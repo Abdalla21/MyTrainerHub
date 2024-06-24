@@ -2,7 +2,7 @@
 {
     public static class SecurityServicesInjection
     {
-        public static IServiceCollection AddCORSService(this IServiceCollection services)
+        public static IServiceCollection AddCorsService(this IServiceCollection services)
         {
             services.AddCors(options =>
             {

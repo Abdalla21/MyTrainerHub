@@ -6,13 +6,13 @@ using MyTrainerHub.Infrastructure.DatabaseContext;
 
 namespace MyTrainerHub.UI.ServicesInjectionExtension
 {
-    public static class DBServicesInjection
+    public static class DbServicesInjection
     {
-        public static IServiceCollection AddDBContextService(this IServiceCollection services, ConfigurationManager config)
+        public static IServiceCollection AddDbContextService(this IServiceCollection services, ConfigurationManager config)
         {
             services.AddDbContext<ApplicationDBContext>(
                 options => options.UseSqlServer(
-                    config.GetConnectionString(DBConstants.ConnectionStringName))
+                    config.GetConnectionString(DbConstants.ConnectionStringName))
                 , ServiceLifetime.Transient);
 
             return services;
@@ -22,6 +22,7 @@ namespace MyTrainerHub.UI.ServicesInjectionExtension
         {
             services.AddIdentityCore<ApplicationUser>()
                 .AddEntityFrameworkStores<ApplicationDBContext>()
+                .AddDefaultTokenProviders()
                 .AddApiEndpoints();
 
             return services;
